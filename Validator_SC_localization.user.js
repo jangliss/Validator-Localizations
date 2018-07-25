@@ -153,7 +153,7 @@ window.WME_Validator_United_States = {
         titleEN: 'Name on railroad',
         problemEN: 'Railroads should not be named',
         solutionEN: 'Remove the name from the railroad',
-        template: '${typeRank}##${street}',
+        template: '${type}:${street}',
         regexp: '/^18:.+/',
     },
 
