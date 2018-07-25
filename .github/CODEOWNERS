@@ -1,0 +1,48 @@
+# Give everyone in team access to any files not specified further in list
+*           @WazeDev/validator-localizers
+
+.github/*   @xanderb-waze @crazycaveman
+
+Validator_AU_localization.user.js    @xanderb-waze
+Validator_Cal_localization.user.js   @xanderb-waze
+Validator_ILL_localization.user.js   @xanderb-waze
+Validator_IN_localization.user.js    @xanderb-waze
+Validator_KY_localization.user.js    @xanderb-waze
+Validator_MA_localization.user.js    @xanderb-waze
+Validator_MD_localization.user.js    @xanderb-waze
+Validator_MI_localization.user.js    @xanderb-waze
+Validator_MN_localization.user.js    @xanderb-waze
+Validator_OH_localization.user.js    @xanderb-waze
+Validator_PA_Localization.user.js    @xanderb-waze
+Validator_TN_localization.user.js    @xanderb-waze
+Validator_UT_Localization.user.js    @xanderb-waze
+Validator_VE_localization.user.js    @xanderb-waze
+Validator_WI_localization.user.js    @xanderb-waze
+Validator_WV_localization.user.js    @xanderb-waze
+
+Validator_CT_localization.user.js    @crazycaveman
+Validator_MA_localization.user.js    @crazycaveman
+Validator_ME_localization.user.js    @crazycaveman
+Validator_NH_localization.user.js    @crazycaveman
+Validator_RI_localization.user.js    @crazycaveman
+Validator_VT_localization.user.js    @crazycaveman
+Validator_DE_localization.user.js    @crazycaveman
+Validator_NJ_localization.user.js    @crazycaveman
+Validator_NY_localization.user.js    @crazycaveman
+Validator_PA_localization.user.js    @crazycaveman
+Validator_IA_localization.user.js    @crazycaveman
+Validator_KS_localization.user.js    @crazycaveman
+Validator_MN_localization.user.js    @crazycaveman
+Validator_MO_localization.user.js    @crazycaveman
+Validator_ND_localization.user.js    @crazycaveman
+Validator_NE_localization.user.js    @crazycaveman
+Validator_SD_localization.user.js    @crazycaveman
+Validator_SC_localization.user.js    @crazycaveman
+Validator_SE_localization.user.js    @crazycaveman
+Validator_AZ_localization.user.js    @crazycaveman
+Validator_CA_localization.user.js    @crazycaveman
+Validator_CO_localization.user.js    @crazycaveman
+Validator_HI_localization.user.js    @crazycaveman
+Validator_NM_localization.user.js    @crazycaveman
+Validator_NV_localization.user.js    @crazycaveman
+Validator_UT_localization.user.js    @crazycaveman
