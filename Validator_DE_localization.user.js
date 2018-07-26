@@ -4,9 +4,8 @@
 // @version             1.1.10
 // @author              crazycaveman
 // @description         This script localizes WME Validator for Delaware, USA. You also need main package (WME Validator) installed.
-// @match               https://beta.waze.com/*editor/*
-// @match               https://www.waze.com/*editor/*
-// @exclude             https://*.waze.com/*user/editor/*
+// @include             https://www.waze.com/editor
+// @include             /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
 // @grant               none
 // @run-at              document-start
 // ==/UserScript==
