@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                WME Validator Localization for Kentucky
 // @namespace           https://greasyfork.org/en/users/9555
-// @version             1.3.1004
+// @version             1.3.1005
 // @author              xanderb
 // @description         This script localizes WME Validator for Kentucky, USA. You also need main package (WME Validator) installed.
 // @include             /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
@@ -14,7 +14,7 @@ window.WME_Validator_United_States = {
   ".country": "United States",
   ".codeISO": "US",
   ".author": "xanderb",
-  ".updated": "2018-06-29",
+  ".updated": "2018-07-25",
   ".link": "https://greasyfork.org/en/scripts/8419-wme-validator-localization-for-kentucky",
   ".lng": "EN-US",
   "city.consider.en": "consider this city name:",
@@ -708,7 +708,7 @@ window.WME_Validator_United_States = {
     "template": "${street}",
     "regexp": "!/(Unknown Name| A(cres?|ly|nnex|ve|r(cade|tery))| B(ay|ch|end|lvd|luf|roadway|ypass|YP|r(a(e|nch|ook))?|ottom|(ike|us)way|ayou)| C(enters|t|lb?|hase|ommons?|o(urse|rs|rner)|ONN|amp|r(es|est|k)?|ir|swy|tr|v|u(rve|toff)|yn)| D(am|ale|ell|onws|r)| E(ast|dgeway|n(d|t)|xit|states?|splanade|x(t|pwy))| F(airway|or(rges?|d|ks?)|wy|alls?|lats?)| G(ardens?|len|rv|r(ee)?n|a(p|te(way)?))| H(arborr|ills?|ollows?|ts|wy|ospital)| I(sle|nlt)| Junctions?| K(eys?|nolls?)| L(ocks?|dg|in[ke]|f|gts?|ndg|[np])|oop| M(all|dw|eadows|nr|anors|t|tns?|ile|o(hr|torway)|ews|sn)| N(eck|orth)| O(aks|ne|rchard|v(al|er(look|pass)))| P(a(ss|th|rade)|ike|romanade|o(intes?|rts?)|l(ns|z)?|k(e|s)?|kwys?|ts?)| R(d|e(ach|st)|ow|i(se|ver)|amp|ailroad|nch|\.R\.|ailway|pds|idge|u(n(way)?|e)|te)| S(ho(als?|res?)|kwy|outh|p(ur|ngs|ring)|u(permarket|bdivision)|t(a|rut)|[qt]s?)| T(er|hwy|lwy|race|pke?|un|urn|r(l|fy)|ra(ck|in))| U(nderpass|pr)| V(iews?|i(llages?|sta)|ly|alleys|iaduct)| W(alk|ays?|ls?|est|oods|ynde?)| X(-ing|rd)| Yard|^$)( [SNEW]{1,2})?$|^([SNEW]{1,2} )?(Old )?(\\d{1,4} [SNEW]|Broadway|MBTA|Railroad|Amtrak|I-|IN-|IA-|KY?-|US-|LA?-|M[DNSO]?-|N[VJYCD]?-|S[CDRH]?-|RI?-|TN-|V[AT]-|W(V|IS)-|C[RH]-|Runway|Place |Parkway|Route |Rue de |Access |Avenue of |Circle of |State |County |The |to |(Left )?E(xit( to:)?|ntry) )/",
   },
-  "128.solutionLink": "W:User:Xanderb/Abbreviations",
+  "128.solutionLink": "W:USA/User:Xanderb/Abbreviations",
   "128.title.en": "User-defined custom check (green)",
   "128.title": "Check Name Suffix",
   "128.problem.en": "Some of the segment properties matched against the user-defined regular expression (see Settings→Custom)",
@@ -723,7 +723,7 @@ window.WME_Validator_United_States = {
     "template": "${state}:${street}#${altStreet[#]}",
     "regexp": "/Kentucky:.*(Ky Hwy |State Hwy |I- |Ky-|SR-|SH-|State Rd |KY=|State Rte |^Rte |KY-0|U\.?[Ss]\.? [Hh](WY|wy|ighway))/"
   },
-  "129.solutionLink": "W:Kentucky#Major_roads",
+  "129.solutionLink": "W:USA/Kentucky#Major_roads",
   "129.title.en": "User-defined custom check (blue)",
   "129.title": "Incorrect Highway Name",
   "129.problem.en": "Some of the segment properties matched against the user-defined regular expression (see Settings→Custom)",
@@ -753,7 +753,7 @@ window.WME_Validator_United_States = {
     "template": "${state}",
     "regexp": "!/Kentucky/"
   },
-  "131.solutionLink": "W:Creating_and_editing_road_segments#Address_Properties",
+  "131.solutionLink": "W:USA/Creating_and_editing_road_segments#Address_Properties",
   "131.title.en": "Custom check",
   "131.title": "Not Kentucky",
   "131.problem.en": "The segment matched custom conditions",
@@ -768,7 +768,7 @@ window.WME_Validator_United_States = {
     "template": "${state}:${street}#${altStreet[#]}",
     "regexp": "/Kentucky:.*(Cs-|CS-|County Hwy |County Rd |Cr-|Co Rd |CH-|Ch-|Co Rte )/"
   },
-  "132.solutionLink": "W:Kentucky#State_Highway_Renaming",
+  "132.solutionLink": "W:USA/Kentucky#State_Highway_Renaming",
   "132.title.en": "Custom check",
   "132.title": "Wrong name for City or County street",
   "132.problem.en": "The segment matched custom conditions",
@@ -799,7 +799,7 @@ window.WME_Validator_United_States = {
     "template": "${street}:${typeRank}",
     "regexp": "/.*(Alley| Aly):[^7]/"
   },
-  "134.solutionLink": "W:Road_types/USA#Parking_Lot_Road",
+  "134.solutionLink": "W:USA/Road_types#Parking_Lot_Road",
   "134.title.en": "Custom check",
   "134.title": "Alley not PLR",
   "134.problem.en": "The segment matched custom conditions",
@@ -814,7 +814,7 @@ window.WME_Validator_United_States = {
     "template": "${typeRank}:${lock}",
     "regexp": "!/^(15:[4-6]|14:[4-6]|13:[3-6]|12:[2-6]|11:[2-6]|10:[1-6]|2:[2-6]|[1,3-9]:[1-6])$/"
   },
-  "135.solutionLink": "W:Kentucky",
+  "135.solutionLink": "W:USA/Kentucky",
   "136.enabled": true,
   "136.params": {
     "titleEN": "Wrong road type",
@@ -823,7 +823,7 @@ window.WME_Validator_United_States = {
     "template": "${typeRank}:#${street}@#${altStreet[@#]}@",
     "regexp": "/^[1-9][^245]?:.*#(US Hwy |US-)[0-9]+( ALT| BYP| CONN| TRUCK| Scenic| [NSWE])*@/i"
   },
-  "136.solutionLink": "W:Road_types/USA#Major_Highway",
+  "136.solutionLink": "W:USA/Road_types#Major_Highway",
   "136.title.en": "Custom check",
   "136.title": "Wrong road type",
   "136.problem.en": "The segment matched custom conditions",
@@ -853,7 +853,7 @@ window.WME_Validator_United_States = {
     "template": "${street}#${altStreet[#]}",
     "regexp": "/((^| )(St|Dr)(.$)?(?! ((CONN|Ext|Spur|[NEWS][EW]?)\\b|/|\\())|(Jr|Rev)) /"
   },
-  "138.solutionLink": "W:Abbreviations_and_acronyms/USA#Standard_suffix_abbreviations",
+  "138.solutionLink": "W:USA/Abbreviations_and_acronyms#Standard_suffix_abbreviations",
   "138.title.en": "Custom check",
   "138.title": "Bad TTS Street name",
   "138.problem.en": "The segment matched custom conditions",
@@ -868,7 +868,7 @@ window.WME_Validator_United_States = {
     "template": "${street} ${altStreet[#]}",
     "regexp": "/(^| )([NEWS]?[news][NEWS]?|[\"']?([NnSs][EeWw]?|[EeWw])['\":-]|[\"']([NnSs][EeWw]?|[EeWw])['\":-]?)(\\b|\\d| |$)/"
   },
-  "139.solutionLink": "W:Abbreviations_and_acronyms/USA#Standard_suffix_abbreviations",
+  "139.solutionLink": "W:USA/Abbreviations_and_acronyms#Standard_suffix_abbreviations",
   "139.title.en": "Custom check",
   "139.title": "Improper Cardinal Usage",
   "139.problem.en": "The segment matched custom conditions",
@@ -945,7 +945,7 @@ window.WME_Validator_United_States = {
     "problemEN": "The street name has incorrect abbreviation, or character",
     "solutionEN": "Check upper/lower case, a space before/after the abbreviation and the accordance with the abbreviation table. Remove any comma (,), backslash (\\), or semicolon (;)"
   },
-  "171.solutionLink": "W:Abbreviations_and_acronyms/USA#Standard_suffix_abbreviations",
+  "171.solutionLink": "W:USA/Abbreviations_and_acronyms#Standard_suffix_abbreviations",
   "171.title.en": "Incorrectly abbreviated street name",
   "171.title": "Incorrectly abbreviated street name",
   "171.problem.en": "The street name has incorrect abbreviation",
