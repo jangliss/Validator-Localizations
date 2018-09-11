@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Texas
-// @version             0.0.1
+// @version             1.0.1
 // @author              jangliss
 // @description         This script localizes WME Validator for Texas, USA.
 // @include             /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
