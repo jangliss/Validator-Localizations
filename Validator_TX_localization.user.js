@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Texas
-// @version             1.0.2
+// @version             1.0.3
 // @author              jangliss
 // @description         This script localizes WME Validator for Texas, USA.
 // @include             /^https:\/\/(www|beta)\.waze\.com\/(?!user\/)(.{2,6}\/)?editor.*$/
@@ -75,49 +75,45 @@ window.WME_Validator_United_States = {
 
 	"136.solutionLink": "P:USA/South_Central#Road_naming",
 
-	// Private Road Lock
-	"137.enabled": true,
-	"137.title": "Incorrect lock on Private Road",
-	"137.problem": "Lock level on Private Road does not match standard",
-	"137.solution": "Correct lock level to standard",
-	"137.solutionLink": "P:USA/USA/South_Central#Road_Lock_Standards",
-	"137.params" : {
-		"template": "${typeRank}:${lock}",
-		"regexp": "/^(17|6):[^2]$/",
-	},
-
 	//Freeway lock
 	"150.enabled": true,
-	"150.title": "Incorrect lock on Freeway",
 	"150.params": {
 		"n": 5,
 	},
 
 	//Major Highway lock
 	"151.enabled": true,
-	"151.title": "Incorrect lock on Major Highway",
 	"151.params": {
 		"n": 4,
 	},
 
 	//Minor Highway lock
 	"152.enabled": true,
-	"152.title": "Incorrect lock on Minor Highway",
 	"152.params": {
 		"n": 3,
 	},
 
 	//Ramp lock
 	"153.enabled": true,
-	"153.title": "Incorrect lock on Ramp",
 	"153.params": {
 		"n": 4,
 	},
 
 	//Primary Street lock
 	"154.enabled": true,
-	"154.title": "Incorrect lock on Primary Street",
 	"154.params": {
+		"n": 2,
+	},
+
+	//Railroad Lock
+	"157.enabled": true,
+	"157.params": {
+		"n": 2,
+	},
+
+	// Private Road Lock
+	"158.enabled": true,
+	"158.params": {
 		"n": 2,
 	},
 };
